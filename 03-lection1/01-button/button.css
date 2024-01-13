@@ -1,1 +1,82 @@
 /* Стилизация кнопки */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-left: 150px;
+    margin-top: 150px;
+    gap: 20px;
+}
+
+.button {
+    margin-right: 15px;
+}
+
+.button:last-child {
+    margin-right: 0px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+
+.button_prymary {
+    padding: 15px 62px;
+    background-color: var(--blue);
+}
+
+.button_prymary:hover {
+    background-color: #2342C0;
+}
+
+.button_prymary:active {
+    background-color: var(--grey-4);
+    color: var(--grey-3);
+}
+
+.button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.button_secondary {
+    padding: 15px 56px;
+    background-color: var(--purple);
+}
+
+.button_secondary:hover {
+    background-color: #5028C6;
+}
+
+.button_secondary:active {
+    background-color: var(--grey-4);
+    color: var(--grey-3);
+}
+
+.button_alternate {
+    padding: 15px 61px;
+    border: 1px solid var(--grey-3);
+    color: var(--grey-4);
+}
+
+.button_alternate:hover {
+    border: 1px solid var(--grey-4);
+    color: var(--grey-4);
+}
+
+.button_alternate:active {
+    border: 1px solid var(--grey-4);
+    color: var(--grey-4);
+}
