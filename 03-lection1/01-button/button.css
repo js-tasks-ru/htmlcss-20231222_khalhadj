@@ -42,7 +42,7 @@
 }
 
 .button_prymary:active {
-    background-color: var(--grey-4);
+    background-color: #081b69;
     color: var(--grey-3);
 }
 
@@ -61,7 +61,7 @@
 }
 
 .button_secondary:active {
-    background-color: var(--grey-4);
+    background-color: #372277;
     color: var(--grey-3);
 }
 
@@ -78,5 +78,5 @@
 
 .button_alternate:active {
     border: 1px solid var(--grey-4);
-    color: var(--grey-4);
+    color: var(--grey-3);
 }
