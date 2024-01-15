@@ -1,0 +1,11 @@
+.header {
+    background: var(--white);
+}
+
+.header__title {
+    color: var(--black);
+    font-family: 'Inter';
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
