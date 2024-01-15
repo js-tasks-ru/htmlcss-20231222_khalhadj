@@ -1,5 +1,5 @@
 /* Стилизация кнопки */
-* {
+_* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -32,16 +32,16 @@
 }
 
 
-.button_prymary {
+.button__prymary {
     padding: 15px 62px;
     background-color: var(--blue);
 }
 
-.button_prymary:hover {
+.button__prymary:hover {
     background-color: #2342C0;
 }
 
-.button_prymary:active {
+.button__prymary:active {
     background-color: #081b69;
     color: var(--grey-3);
 }
@@ -51,32 +51,32 @@
     cursor: not-allowed;
 }
 
-.button_secondary {
+.button__secondary {
     padding: 15px 56px;
     background-color: var(--purple);
 }
 
-.button_secondary:hover {
+.button__secondary:hover {
     background-color: #5028C6;
 }
 
-.button_secondary:active {
+.button__secondary:active {
     background-color: #372277;
     color: var(--grey-3);
 }
 
-.button_alternate {
+.button__alternate {
     padding: 15px 61px;
     border: 1px solid var(--grey-3);
     color: var(--grey-4);
 }
 
-.button_alternate:hover {
+.button__alternate:hover {
     border: 1px solid var(--grey-4);
     color: var(--grey-4);
 }
 
-.button_alternate:active {
+.button__alternate:active {
     border: 1px solid var(--grey-4);
     color: var(--grey-3);
 }
