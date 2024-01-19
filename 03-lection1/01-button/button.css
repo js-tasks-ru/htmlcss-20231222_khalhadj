@@ -12,8 +12,8 @@
     font-size: 16px;
     font-weight: 500;
     line-height: normal;
-    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
     padding: 15px 55px;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
 
