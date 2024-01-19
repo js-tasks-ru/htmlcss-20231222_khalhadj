@@ -1,23 +1,5 @@
 /* Стилизация кнопки */
-_* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-.container {
-    margin-left: 150px;
-    margin-top: 150px;
-    gap: 20px;
-}
-
-.button {
-    margin-right: 15px;
-}
-
-.button:last-child {
-    margin-right: 0px;
-}
 
 .button {
     display: inline-block;
@@ -26,57 +8,59 @@ _* {
     background-color: transparent;
     cursor: pointer;
     color: var(--white);
+    font-family: 'Roboto';
     font-size: 16px;
     font-weight: 500;
+    line-height: normal;
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+    padding: 15px 55px;
 }
 
 
-.button__prymary {
-    padding: 15px 62px;
+.button_prymary {
     background-color: var(--blue);
 }
 
-.button__prymary:hover {
+.button_prymary:hover {
     background-color: #2342C0;
 }
 
-.button__prymary:active {
+.button_prymary:active {
     background-color: #081b69;
     color: var(--grey-3);
 }
 
 .button:disabled {
     opacity: 0.5;
-    cursor: not-allowed;
+    pointer-events: none;
 }
 
-.button__secondary {
+.button_secondary {
     padding: 15px 56px;
     background-color: var(--purple);
 }
 
-.button__secondary:hover {
+.button_secondary:hover {
     background-color: #5028C6;
 }
 
-.button__secondary:active {
+.button_secondary:active {
     background-color: #372277;
     color: var(--grey-3);
 }
 
-.button__alternate {
+.button_alternate {
     padding: 15px 61px;
     border: 1px solid var(--grey-3);
     color: var(--grey-4);
 }
 
-.button__alternate:hover {
+.button_alternate:hover {
     border: 1px solid var(--grey-4);
     color: var(--grey-4);
 }
 
-.button__alternate:active {
+.button_alternate:active {
     border: 1px solid var(--grey-4);
     color: var(--grey-3);
 }
