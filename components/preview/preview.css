@@ -1,0 +1,12 @@
+.preview {
+    background: #f9fafc;
+    padding: 56px 0;
+    overflow: hidden;
+}
+
+.preview__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
